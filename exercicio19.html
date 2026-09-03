@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 19</title>
+    <style>
+#caixa {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+button { margin-top: 10px; padding: 8px; }
+    </style>
+</head>
+<body>
+
+<div id="caixa"></div><button onclick="mudar()">Mudar cor</button>
+
+<script>
+function mudar() {
+    var caixa = document.querySelector("#caixa")
+    caixa.style.backgroundColor = "blue"
+}
+</script>
+
+</body>
+</html>
